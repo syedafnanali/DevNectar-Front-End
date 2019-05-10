@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <!-- COMPRESSED CSS STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONTS CDN ---PT-SANS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="login">
+      <!-- NAVBAR -->
+      <nav class="header__nav">
+        <h1 class="nav__logo">
+          <a href="dashboard.html">
+            <i class="fas fa-code-branch"></i>
+            DevNectar
+          </a>
+        </h1>
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="profiles.html">Developers</a></li>
+          <li class="nav__list-item"><a href="register.html">Signup</a></li>
+          <li class="nav__list-item"><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+      <!-- END OF NAVBAR -->
+
+      <!-- LOGIN CONTAINER -->
+      <div class="login__box">
+        <div class="img-container">
+
+          <h1 class="img-container__heading">
+            <i class="fas fa-code-branch"></i>
+            DevNectar
+          </h1>
+          <p class="img-container__desc">
+            A website for web developer to connect <br> and share resources. Enter
+            details to login <br> to your account.
+          </p>
+          <img
+            src="./img/login.svg"
+            alt="Login image"
+            class="img-container__loginimg"
+          />
+        </div>
+
+        <div class="form">
+          <img src="./img/profile_pic.svg" alt="loginimage" class="form__img" />
+
+          <h1 class="form__heading">
+            <i class="fas fa-sign-in-alt" style="margin-right:5px;"></i>
+            Login
+          </h1>
+
+          <p class="form__message">Enter your email and password to login</p>
+          <form action="#">
+            <div class="form__control">
+              <label for="email" class="form__label">Email</label>
+              <input
+                placeholder="Enter email"
+                type="email"
+                name="email"
+                class="form__input"
+              />
+            </div>
+
+            <div class="form__control">
+              <label for="password" class="form__label">Password</label>
+              <input
+                placeholder="Enter password"
+                type="password"
+                name="password"
+                class="form__input"
+              />
+            </div>
+
+            <div class="form__loginbtn">
+              <a href="#" class="login-btn">Login</a>
+            </div>
+          </form>
+          <div class="noaccount">
+            <div class="noaccount__register">
+              Dont have an account? Click here to <a href="#">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <h5>All rights reserved DevNectar &copy; 2019</h5>
+      </div>
+    </section>
+  </body>
+</html>

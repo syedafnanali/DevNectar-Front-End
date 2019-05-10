@@ -21,40 +21,6 @@
   background-color: #2f2a3d;
 }
 
-.header .nav__logo {
-  margin-left: 15rem;
-  font-size: 2rem;
-}
-
-.header .nav__logo a {
-  color: white;
-}
-
-.header .nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
-  list-style: none;
-  margin-right: 5rem;
-}
-
-.header .nav__list-item {
-  margin-left: 2rem;
-  font-size: 2rem;
-}
-
-.header .nav__list-item a {
-  color: white;
-}
-
 .header__landing {
   background-color: #e1dffd;
   width: 100%;
@@ -69,7 +35,7 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  padding: 0rem 12rem;
+  padding: 0rem 15rem;
   -webkit-box-shadow: 0rem 0rem 5rem lightgray;
           box-shadow: 0rem 0rem 5rem lightgray;
 }
@@ -79,11 +45,13 @@
 }
 
 .header .landing__desc--heading {
-  font-size: 3.5rem;
+  font-size: 4rem;
+  text-shadow: 2rem 0.5rem 2rem #a1a1a1;
 }
 
 .header .landing__desc--details {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .header .landing__buttons {
@@ -92,11 +60,20 @@
 }
 
 .header .landing__desc-img {
-  padding: 5rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0rem;
 }
 
 .header .landing__desc-img--main-img {
-  width: 60%;
+  width: 70%;
 }
 
 .header__about {
@@ -109,6 +86,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: relative;
 }
 
 .header__about::before {
@@ -119,12 +97,16 @@
   width: 80%;
 }
 
+.header .about__img {
+  width: 50%;
+}
+
 .header .about__1 {
   border: none;
   text-align: center;
   padding: 2rem 0;
   width: 25rem;
-  height: 20rem;
+  height: 15rem;
   font-weight: lighter;
 }
 
@@ -133,7 +115,7 @@
   text-align: center;
   padding: 2rem 0;
   width: 25rem;
-  height: 20rem;
+  height: 15rem;
 }
 
 .header .about__3 {
@@ -141,7 +123,7 @@
   text-align: center;
   padding: 2rem 0;
   width: 25rem;
-  height: 20rem;
+  height: 15rem;
 }
 
 .header .about__4 {
@@ -149,33 +131,10 @@
   text-align: center;
   padding: 2rem 0;
   width: 25rem;
-  height: 20rem;
+  height: 15rem;
 }
 
 .header .about__text {
   margin-top: 2rem;
-  font-size: 2rem;
-}
-
-.signin {
-  background-color: #56e6ce;
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border-radius: 2rem;
-  width: 15rem;
-  text-align: center;
-  margin-right: 2rem;
-  border: 1px solid lightgrey;
-  color: #535353;
-}
-
-.signup {
-  background-color: #6ae7fd;
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border: 1px solid lightgrey;
-  border-radius: 2rem;
-  width: 15rem;
-  text-align: center;
-  color: #535353;
+  font-size: 1.8rem;
 }

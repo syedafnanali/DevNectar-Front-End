@@ -1,0 +1,62 @@
+.signin {
+  background-color: #56e6ce;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  width: 15rem;
+  text-align: center;
+  margin-right: 2rem;
+  border: 1px solid lightgrey;
+  color: #535353;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+          box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+}
+
+.signup {
+  background-color: #6ae7fd;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border: 1px solid lightgrey;
+  border-radius: 2rem;
+  width: 15rem;
+  text-align: center;
+  color: #535353;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+          box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+}
+
+.login-btn {
+  font-size: 2rem;
+  background-color: #fd4784;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 1.4rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+          box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+}
+
+.register-btn {
+  font-size: 2rem;
+  background-color: #fd4784;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 1.4rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+          box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+}
+
+.viewprofile-btn {
+  font-size: 2rem;
+  background-color: #fd4784;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 1.4rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+          box-shadow: 0.5rem 0.5rem 1rem rgba(105, 105, 105, 0.801);
+}

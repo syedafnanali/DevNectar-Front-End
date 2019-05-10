@@ -14,34 +14,6 @@
     background-color: rgb(47, 42, 61);
   }
 
-  .nav {
-    &__logo {
-      margin-left: 15rem;
-      font-size: 2rem;
-    }
-
-    &__logo a {
-      color: white;
-    }
-
-    &__list {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      align-self: stretch;
-      list-style: none;
-      margin-right: 5rem;
-    }
-
-    &__list-item {
-      margin-left: 2rem;
-      font-size: 2rem;
-      a {
-        color: white;
-      }
-    }
-  }
-
   /* SECTION LANDING */
   &__landing {
     // background-color: rgb(253, 225, 215);
@@ -52,7 +24,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding: 0rem 12rem;
+    padding: 0rem 15rem;
     box-shadow: 0rem 0rem 5rem rgb(211, 211, 211);
   }
 
@@ -61,10 +33,12 @@
       padding: 5rem 3rem;
 
       &--heading {
-        font-size: 3.5rem;
+        font-size: 4rem;
+        text-shadow: 2rem 0.5rem 2rem rgb(161, 161, 161);
       }
       &--details {
-        font-size: 1.7rem;
+        font-size: 2rem;
+        margin-top: 1rem;
       }
     }
 
@@ -74,10 +48,13 @@
     }
 
     &__desc-img {
-      padding: 5rem 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem 0rem;
 
       &--main-img {
-        width: 60%;
+        width: 70%;
       }
     }
   }
@@ -87,6 +64,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+    position: relative;
 
     &::before {
       content: "";
@@ -98,12 +76,16 @@
   }
 
   .about {
+    &__img {
+      width: 50%;
+    }
+
     &__1 {
       border: none;
       text-align: center;
       padding: 2rem 0;
       width: 25rem;
-      height: 20rem;
+      height: 15rem;
       font-weight: lighter;
     }
 
@@ -112,7 +94,7 @@
       text-align: center;
       padding: 2rem 0;
       width: 25rem;
-      height: 20rem;
+      height: 15rem;
     }
 
     &__3 {
@@ -120,7 +102,7 @@
       text-align: center;
       padding: 2rem 0;
       width: 25rem;
-      height: 20rem;
+      height: 15rem;
     }
 
     &__4 {
@@ -128,36 +110,12 @@
       text-align: center;
       padding: 2rem 0;
       width: 25rem;
-      height: 20rem;
+      height: 15rem;
     }
 
     &__text {
       margin-top: 2rem;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
-}
-
-// BUTTONS
-.signin {
-  background-color: rgb(86, 230, 206);
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border-radius: 2rem;
-  width: 15rem;
-  text-align: center;
-  margin-right: 2rem;
-  border: 1px solid lightgrey;
-  color: rgb(83, 83, 83);
-}
-
-.signup {
-  background-color: rgb(106, 231, 253);
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border: 1px solid lightgrey;
-  border-radius: 2rem;
-  width: 15rem;
-  text-align: center;
-  color: rgb(83, 83, 83);
 }

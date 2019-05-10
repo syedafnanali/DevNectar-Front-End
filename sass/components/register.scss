@@ -1,0 +1,128 @@
+.register {
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+    width: 100%;
+  }
+
+  .img-container {
+    width: 40%;
+    margin-right: 2rem;
+
+    &__regimg {
+      width: 60%;
+      box-shadow: 2rem 2rem 5rem rgb(158, 158, 158);
+      margin-left: 5rem;
+    }
+
+    &__heading {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      text-shadow: 2rem 0.5rem 2rem rgb(168, 168, 168);
+      margin-left: 5rem;
+    }
+
+    &__desc {
+      font-size: 2rem;
+      margin-bottom: 4rem;
+      margin-left: 5rem;
+    }
+  }
+
+  .form {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 43rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1rem 2rem 5rem rgb(143, 143, 143);
+    background-color: rgb(177, 174, 250);
+
+    &__img {
+      width: 20%;
+      align-self: center;
+      margin-top: 3rem;
+      border-radius: 100%;
+      box-shadow: 1rem 1rem 3rem rgba(105, 105, 105, 0.801);
+    }
+
+    &__control {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__heading {
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 1.5rem;
+      font-size: 3rem;
+    }
+
+    &__input {
+      height: 3.5rem;
+      border-radius: 5rem;
+      padding: 0.5rem 1rem;
+      margin-top: 0.7rem;
+      width: 30rem;
+      border: none;
+      border: 1px solid rgb(148, 147, 147);
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 1rem 1rem 2rem rgba(105, 105, 105, 0.801);
+    }
+
+    &__label {
+      align-self: flex-start;
+      margin-left: 5.8rem;
+    }
+
+    &__message {
+      text-align: center;
+      font-weight: 100;
+      font-size: 1.5rem;
+      margin-top: 1.3rem;
+    }
+
+    &__label {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    &__registerbtn {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+
+  .noaccount {
+    text-align: center;
+    margin: 2.5rem 0;
+
+    &__login {
+      font-size: 1.5rem;
+      color: black;
+    }
+  }
+}
+
+.copyright {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
